@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+    height: 840px;
+
+}
+
+header {
+    display: flex;
+    color: white;
+    width: 1170px;
+    height: 107px;
+    margin-right: 135px;
+    margin-left: 134px;
+
+
+}
+
+.header-logo {
+    margin-right: 667.5px;
+    padding-top: 43.74px;
+    padding-left: 0.8px;
+    padding-bottom: 44.38px;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    width: 221px;
+    height: 19px;
+    padding-top: 44px;
+}
+
+.header-menu ul li {
+    margin-right: 40px;
+    display: flex;
+    width: 221px;
+    height: 19px;
+}
+
+.header-menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    width: 47px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.header-button {
+    padding: 12px 24px;
+    width: 138px;
+    height: 43px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 56px;
+    color: yellow;
+    gap: 10px;
+    margin-top: 32px;
+    margin-left: 64px;
+
+}
+
+.header-line {
+    width: 1170px;
+    height: 0px;
+    margin-left: 135px;
+    top: 108px;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.content {
+    display: flex;
+
+    color: white;
+    width: 1170px;
+    height: 107px;
+    margin: 0 auto;
+
+}
+
+.left {
+    width: 570px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    color: white;
+    margin-top: 222px;
+
+}
+
+h2 {
+    width: 570px;
+    height: 194px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 110%;
+    margin-bottom: 24px;
+
+}
+
+.text {
+    width: 570px;
+    height: 71px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 48px;
+}
+
+.button {
+    display: flex;
+
+}
+
+.button>button {
+    display: flex;
+    width: 277px;
+    height: 62px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-right: 16px;
+}
+
+.button-hidari {
+    background-color: yellow;
+}
+
+.button-migi {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: yellow;
+}
+
+.right {
+    width: 469.6px;
+    height: 504.7px;
+    left: 835px;
+    top: 168px;
+}
+
+.right img {
+    width: 469.6px;
+    height: 504.7px;
+    margin-left: 130px;
+    margin-top: 60px;
+
+}
